@@ -38,5 +38,15 @@
       "last_name": "เลิศล้ำ",
       "dob": "1992-01-04"
     }
+  },
+  {
+    "model": "core.Member",
+    "pk": "chujai@ubu.ac.th",
+    "fields": {
+      "username": "paryut",
+      "first_name": "ประยุทธ์ ",
+      "last_name": "จันทร์โอชา",
+      "dob": "1954-04-21"
+    }
   }
 ]

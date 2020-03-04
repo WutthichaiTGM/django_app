@@ -15,12 +15,3 @@ services:
        MYSQL_PASSWORD: 'cs@ubu'
        MYSQL_ROOT_PASSWORD: 'cs@ubu'
   
-  # web:
-  #   build: .
-  #   command: bash -c "python manage.py makemigrations core api && python manage.py makemigrations && python manage.py runserver 0.0.0.0:80"
-  #   volumes:
-  #     - .:/mysite
-  #   ports:
-  #     - "80:80"
-  #   depends_on:
-  #     - db
